@@ -1,0 +1,62 @@
+
+.text{
+    width: 40%;
+    margin: auto;
+    height: 600px;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  .text-convo{
+    height: 85%;
+    width: 100%;
+    overflow: scroll;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 20px 10px;
+    padding: 1rem;
+  }
+  
+  .message{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    padding: .5rem;
+  }
+  
+  .message span{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 3px;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    border-radius: 5px;
+  }
+  .input{
+    width: 100%;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .input input{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+  
+  .input button{
+    width: 15%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #f56565;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .message h3{
+    text-align: center;
+  }
+  
